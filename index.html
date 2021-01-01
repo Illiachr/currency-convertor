@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <title>Web Consturctor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Currency Converter</h1>
+        </div>
+        <!-- /.header -->
+        <div class="date">2021-01-01</div>
+        <ul class="currencies">
+            <li class="currency base-currency" id="USD">
+                <img src="http://www.geonames.org/flags/l/us.gif" alt="USA" class="flag">
+                <div class="info">
+                    <p class="input">
+                        <span class="currency-symbol">&#36;</span>
+                        <input type="text" placeholder="0.0000">
+                    </p>
+                    <p class="currency-name">USD - US Dollar</p>
+                    <p class="base-currency-rate">1 USD = 1 USD</p>
+                </div>
+                <span class="close">&times;</span>
+            </li>
+            <li class="currency " id="USD">
+                <img src="http://www.geonames.org/flags/l/jp.gif" alt="JAPAN" class="flag">
+                <div class="info">
+                    <p class="input">
+                        <span class="currency-symbol">&#165;</span>
+                        <input type="text" placeholder="0.0000">
+                    </p>
+                    <p class="currency-name">JPY - Japanese Yen</p>
+                    <p class="base-currency-rate">1 USD = 111.0401 JPY</p>
+                </div>
+                <span class="close">&times;</span>
+            </li>
+            <!-- /.currency -->
+        </ul>
+        <!-- /.currencies -->
+        <button class="add-currency-btn">Add Currency</button>
+        <ul class="add-currency-list">
+            <li>
+                <img src="http://www.geonames.org/flags/l/us.gif" alt="USA" class="flag">
+                <span>USD - US Dollar</span>
+            </li>
+            <li>
+                <img src="http://www.geonames.org/flags/l/ru.gif" alt="RU" class="flag">
+                <span>RUB - Russian Ruble</span>
+            </li>
+        </ul>
+    </div>
+    <!-- /.container -->
+</body>
+</html>
