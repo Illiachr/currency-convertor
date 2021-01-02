@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/668b42271a.js" crossorigin="anonymous"></script>
     <title>Web Consturctor</title>
 </head>
 <body>
-    <div class="container">
+    <div id="conveter" class="container">
         <div class="header">
             <h1>Currency Converter</h1>
         </div>
         <!-- /.header -->
         <div class="date">2021-01-01</div>
         <ul class="currencies">
-            <li class="currency base-currency" id="USD">
+            <!-- <li class="currency base-currency" id="USD">
                 <img src="http://www.geonames.org/flags/l/us.gif" alt="USA" class="flag">
                 <div class="info">
                     <p class="input">
@@ -27,31 +28,34 @@
                 </div>
                 <span class="close">&times;</span>
             </li>
-            <li class="currency " id="USD">
+            <li class="currency" id="USD">
                 <img src="http://www.geonames.org/flags/l/jp.gif" alt="JAPAN" class="flag">
                 <div class="info">
                     <p class="input">
                         <span class="currency-symbol">&#165;</span>
-                        <input type="text" placeholder="0.0000">
+                        <input placeholder="0.0000">
                     </p>
                     <p class="currency-name">JPY - Japanese Yen</p>
                     <p class="base-currency-rate">1 USD = 111.0401 JPY</p>
                 </div>
                 <span class="close">&times;</span>
-            </li>
+            </li> -->
             <!-- /.currency -->
         </ul>
         <!-- /.currencies -->
-        <button class="add-currency-btn">Add Currency</button>
+        <button class="add-currency-btn">
+            <i class="fas fa-long-arrow-alt-left"></i>
+            Add Currency
+        </button>
         <ul class="add-currency-list">
-            <li>
+            <!-- <li data-currency="USD" class="disabled">
                 <img src="http://www.geonames.org/flags/l/us.gif" alt="USA" class="flag">
                 <span>USD - US Dollar</span>
             </li>
-            <li>
+            <li data-currency="RUR">
                 <img src="http://www.geonames.org/flags/l/ru.gif" alt="RU" class="flag">
-                <span>RUB - Russian Ruble</span>
-            </li>
+                <span>RUR - Russian Ruble</span>
+            </li> -->
         </ul>
     </div>
     <!-- /.container -->
