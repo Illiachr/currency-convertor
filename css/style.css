@@ -88,7 +88,7 @@ ul.currencies li:last-child {
 }
 
 .info .input input {
-    /* ширина элемента input 78% от родительского элемента (li) */
+    /* ширина элемента input 78% от родительского элемента (info) */
     width: 78%;
     background-color: transparent;
     border: 2px solid #ffffff;
